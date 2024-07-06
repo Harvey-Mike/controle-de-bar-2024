@@ -9,9 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domínio", "2. Domínio"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infraestrutura", "3. Infraestrutura", "{CC00371E-017D-4EB2-BEB2-70D1359DCAE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacLaren's Pub", "MacLaren's Pub\MacLaren's Pub.csproj", "{5D4D2CD2-A282-4E52-A101-6ACACC70C77E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D4D2CD2-A282-4E52-A101-6ACACC70C77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4D2CD2-A282-4E52-A101-6ACACC70C77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4D2CD2-A282-4E52-A101-6ACACC70C77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4D2CD2-A282-4E52-A101-6ACACC70C77E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D4D2CD2-A282-4E52-A101-6ACACC70C77E} = {E68BDA86-2F52-4BA8-8930-14C47277689B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F602749B-4698-472B-B8FD-15503196A21B}
